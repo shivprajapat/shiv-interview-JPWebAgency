@@ -29,7 +29,7 @@ const ProductCard = ({ element }) => {
         </div>
         <div className="flex justify-between items-center mt-auto">
           <h2 className="font-medium text-[#4B9EFF] text-xl">₹ {price}</h2>
-          <Button title="Add To Cart" onClick={() => send(element)} />
+          <Button title="Add To Cart" onClick={() => send(element)} showIcon/>
         </div>
       </div>
     </div>
